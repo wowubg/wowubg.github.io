@@ -1,45 +1,66 @@
 body {
-    margin: 0%;
-    background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-image: linear-gradient(#00f, #000);
+  background-image: url('image/header.jpg');
 }
 h1 {
-    text-align: center;
-    font-size: 75px;
-    color: #00004b;
+  text-align: center;
+  font-size: 75px;
+  color: #00004b;
 }
 header h1 {
-    padding-top: 30vh;
-    padding-bottom: 35vh;
-    margin: 0%;
-    color: #ffffff;
+  padding-top: 30vh;
+  padding-bottom: 35vh;
+  margin: 0%;
+  color: #ffffff;
 }
 .Games {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .Games img {
-    width: 290px;
-    height: 290px;
-    border-radius: 7%;
+  width: 290px;
+  height: 290px;
+  border-radius: 7%;
 }
 .Games p {
-    text-align: center;
-    font-size: 40px;
-    color: #006dac;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: #006dac;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-weight: bold;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a :hover {
-    color: #00006b;
+  color: #00006b;
+}
+button {
+  border-style: none;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  background-color: #3d78e7;
+  color: #fff;
+  font-size: x-large;
+}
+button:hover {
+    background-color: #2525ff;
+    cursor: pointer;
+  }
+  button:active {
+    background-color: #00f;
+  }
+.button {
+    text-align: center;
 }
